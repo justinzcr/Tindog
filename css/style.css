@@ -87,6 +87,10 @@ body,html{
 .container{
   /*padding-bottom: 200px;*/
 }
+#jumbotronText{
+  text-align: center;
+  align-self: center;
+}
 h1{
   /* flex-basis: auto; */
   width: 400px;
