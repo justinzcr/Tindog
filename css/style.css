@@ -33,24 +33,47 @@
   margin: 0;
   padding: 0;
   border: 0;
-  display: flex;
   
 }
 #TextCenter {
- display: inline-flex;
+ display: flex;
+ flex-direction: column;
  /* align-content: center; */
- align-items: center;
+ align-items: flex-start;
+ justify-content: center;
+ height: 70vh;
+ gap: 10px;
+ width: 400px;
 
 }
-body,html,section{
+
+#titleContents{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+#downloadButtonsCont{
+  display: flex;
+  gap: 16px;
+  justify-content: flex-start;
+}
+.btn{
+  padding: 8px 16px;
+}
+body,html,section,#features{
   height: 100%;
   width: 100%;
-  margin: 0;
+  margin: 0px;
   padding: 0;
   border: 0;
   outline: none;
 }
+.container{
+  padding-bottom: 200px;
+}
 h1{
-  text-align: center;
-  justify-content: center;
+  /* flex-basis: auto; */
+  width: 400px;
+  /* text-align: center;
+  justify-content: center; */
 }
