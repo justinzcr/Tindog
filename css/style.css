@@ -97,3 +97,43 @@ h1{
   /* text-align: center;
   justify-content: center; */
 }
+#dogImage{
+  border-radius:50%;
+  overflow:hidden;
+  height: 200px;
+  width: 200px;
+}
+#dogImagine{
+  height: 200px;
+  width: 200px;
+  
+}
+.containerOfImage{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+#companiesContainer{
+  display: flex;
+  gap: 25px;
+  margin-top: 35px;
+  justify-content: center;
+}
+#companyImages{
+  height: 35px;
+}
+#pricingTitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#blueOvertone{
+  border-top-color: black;
+  background-color: black;
+  border-color: black;
+  outline-color: black;
+  background: black;
+}
